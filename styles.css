@@ -228,7 +228,7 @@ body {
 /* Grid */
 .reviews-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 24px;
     padding-bottom: 3rem;
 }
@@ -431,20 +431,40 @@ body {
     color: var(--text-light);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .header-content {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .search-container {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+        gap: 1rem;
     }
 
     .search-bar {
         width: 100%;
     }
 
+    .filter-controls {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+    }
+
     .hero h2 {
         font-size: 2rem;
     }
+
+    #map {
+        height: 300px;
+    }
 }
+
 /* Map Styles */
 #map {
     height: 400px;
