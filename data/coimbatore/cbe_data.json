@@ -1,0 +1,326 @@
+[
+    {
+        "id": "cbe_001",
+        "location_name": "Sree Annapoorna (RS Puram)",
+        "category": "Legendary",
+        "business_type": "Pure Veg Heritage",
+        "operating_hours": "6:00 AM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 11.0118,
+            "lng": 76.9535
+        },
+        "menu_highlights": [
+            {
+                "item": "Ghee Roast Dosa",
+                "price_estimate": 95
+            },
+            {
+                "item": "Sambar Idli",
+                "price_estimate": 70
+            },
+            {
+                "item": "Filter Coffee",
+                "price_estimate": 45
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Delhi Food Walks",
+            "sentiment_score": 9.8,
+            "community_note": "The pride of Coimbatore. Known for the best Sambar and Coffee in the state. Extremely busy during morning hours.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_002",
+        "location_name": "Valarmathi Mess",
+        "category": "Legendary",
+        "business_type": "Kongu Non-Veg Mess",
+        "operating_hours": "12:00 PM - 4:00 PM, 7:00 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 11.0210,
+            "lng": 76.9695
+        },
+        "menu_highlights": [
+            {
+                "item": "Mutton Biryani",
+                "price_estimate": 320
+            },
+            {
+                "item": "Prawns Fry",
+                "price_estimate": 280
+            },
+            {
+                "item": "Chintamani Chicken",
+                "price_estimate": 240
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "DCT EATS",
+            "sentiment_score": 9.2,
+            "community_note": "Unbeatable Kongunadu flavors. Top comments consistently praise the Prawns Fry. Expect heavy crowds for Sunday lunch.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_003",
+        "location_name": "Haribhavanam (Sitra)",
+        "category": "Legendary",
+        "business_type": "Non-Veg Specialty",
+        "operating_hours": "11:30 AM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 11.0315,
+            "lng": 77.0345
+        },
+        "menu_highlights": [
+            {
+                "item": "Pallipalayam Chicken",
+                "price_estimate": 260
+            },
+            {
+                "item": "Nalli Elumbu Roast",
+                "price_estimate": 310
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Walk with Jai",
+            "sentiment_score": 9.0,
+            "community_note": "Legacy spot since 1971. Known for refined spices and high-quality mutton. Community notes it as a reliable family spot.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_004",
+        "location_name": "Junior Kuppanna",
+        "category": "High Traffic",
+        "business_type": "Kongu & Chettinad",
+        "operating_hours": "12:00 PM - 4:30 PM, 7:00 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 11.0020,
+            "lng": 76.9550
+        },
+        "menu_highlights": [
+            {
+                "item": "Chicken Pallipalayam",
+                "price_estimate": 240
+            },
+            {
+                "item": "Kuppanna Special Meals",
+                "price_estimate": 280
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Irfan's View",
+            "sentiment_score": 8.4,
+            "community_note": "A commercial giant. Consistent taste across branches, though some users find it expensive for the portions.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_005",
+        "location_name": "Gowmaaram Selvam (Pure Veg Canteen)",
+        "category": "Hidden Gem",
+        "business_type": "Budget Breakfast Spot",
+        "operating_hours": "7:00 AM - 11:00 AM",
+        "location_coordinates": {
+            "lat": 11.0250,
+            "lng": 76.9800
+        },
+        "menu_highlights": [
+            {
+                "item": "Podi Roast",
+                "price_estimate": 40
+            },
+            {
+                "item": "Plain Roast",
+                "price_estimate": 30
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Mr. Foodie Engineer",
+            "sentiment_score": 9.5,
+            "community_note": "Unbelievable value. ₹10-₹20 items are common here. High organic trust for hygiene and taste.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_006",
+        "location_name": "Hotel Madurai Express (RS Puram)",
+        "category": "Underrated",
+        "business_type": "Parotta Specialty",
+        "operating_hours": "12:00 PM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 11.0125,
+            "lng": 76.9510
+        },
+        "menu_highlights": [
+            {
+                "item": "Veechu Parotta",
+                "price_estimate": 45
+            },
+            {
+                "item": "Chicken Salna",
+                "price_estimate": 120
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Mr. Hobbyist",
+            "sentiment_score": 8.7,
+            "community_note": "Recent viral hit for their authentic Madurai-style flaky parottas in the heart of Kovai.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_007",
+        "location_name": "Urban BBQ (Jenneys Residency)",
+        "category": "Modern",
+        "business_type": "Non-Veg Buffet",
+        "operating_hours": "12:30 PM - 3:30 PM, 7:00 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 11.0280,
+            "lng": 77.0150
+        },
+        "menu_highlights": [
+            {
+                "item": "Unlimited Non-Veg Buffet",
+                "price_estimate": 799
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Semma Theeni",
+            "sentiment_score": 8.9,
+            "community_note": "A luxury buffet choice. Community highlights the seafood variety and grill-at-table experience.",
+            "is_promotion": true
+        }
+    },
+    {
+        "id": "cbe_008",
+        "location_name": "Lovely Mushroom Stall (Saibaba Colony)",
+        "category": "Street Food",
+        "business_type": "Kovai Kalan Spot",
+        "operating_hours": "4:30 PM - 10:00 PM",
+        "location_coordinates": {
+            "lat": 11.0255,
+            "lng": 76.9480
+        },
+        "menu_highlights": [
+            {
+                "item": "Coimbatore Style Kalan",
+                "price_estimate": 40
+            },
+            {
+                "item": "Mushroom Fry",
+                "price_estimate": 60
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Delhi Food Walks",
+            "sentiment_score": 9.1,
+            "community_note": "The OG 'Kalan' spot. A nostalgia trip for locals. Very crowded in the evenings; standing room only.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_009",
+        "location_name": "Babu Pani Puri Stall (RS Puram)",
+        "category": "Street Food",
+        "business_type": "Chaat Specialty",
+        "operating_hours": "4:00 PM - 9:30 PM",
+        "location_coordinates": {
+            "lat": 11.0120,
+            "lng": 76.9542
+        },
+        "menu_highlights": [
+            {
+                "item": "Masala Puri",
+                "price_estimate": 50
+            },
+            {
+                "item": "Bhel Puri",
+                "price_estimate": 50
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Vageesh Vlogs",
+            "sentiment_score": 9.5,
+            "community_note": "Running for 35+ years. Known for hygiene and consistent North Indian chaat taste in a South Indian city.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_010",
+        "location_name": "Saravanampatti Food Street",
+        "category": "Student Hub",
+        "business_type": "Night Food Area",
+        "operating_hours": "5:00 PM - 1:00 AM",
+        "location_coordinates": {
+            "lat": 11.0775,
+            "lng": 77.0120
+        },
+        "menu_highlights": [
+            {
+                "item": "Shawarma Platters",
+                "price_estimate": 120
+            },
+            {
+                "item": "Thattu Vadai Set",
+                "price_estimate": 35
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Coimbatore Insider",
+            "sentiment_score": 8.7,
+            "community_note": "The IT & Student hub. Great for variety and budget eats. Can be noisy and busy until midnight.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_011",
+        "location_name": "Action Ashok Sarbath",
+        "category": "Hidden Gem",
+        "business_type": "Beverage Stall",
+        "operating_hours": "10:00 AM - 9:00 PM",
+        "location_coordinates": {
+            "lat": 11.0180,
+            "lng": 76.9600
+        },
+        "menu_highlights": [
+            {
+                "item": "Coconut Sarbath",
+                "price_estimate": 40
+            },
+            {
+                "item": "Elaneer Mix",
+                "price_estimate": 50
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Delhi Food Walks",
+            "sentiment_score": 9.6,
+            "community_note": "Famous for the owner's 'Action' style of making sarbath. Refreshing and iconic street experience.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "cbe_012",
+        "location_name": "HSR Kebarbiq (Saravanampatti)",
+        "category": "Modern",
+        "business_type": "Unlimited BBQ",
+        "operating_hours": "12:00 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 11.0810,
+            "lng": 77.0155
+        },
+        "menu_highlights": [
+            {
+                "item": "Unlimited BBQ with Coke",
+                "price_estimate": 399
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Kavya the Blogger",
+            "sentiment_score": 8.2,
+            "community_note": "Massive value for students. Community loves the unlimited offer but notes meat quality is 'standard' for the price.",
+            "is_promotion": true
+        }
+    }
+]

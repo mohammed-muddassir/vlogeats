@@ -1,0 +1,264 @@
+[
+    {
+        "id": "mdy_001",
+        "location_name": "Amma Mess",
+        "category": "Legendary",
+        "business_type": "Non-Veg Mess",
+        "operating_hours": "12:00 PM - 4:30 PM, 7:00 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 9.9312,
+            "lng": 78.1215
+        },
+        "menu_highlights": [
+            {
+                "item": "Nandu (Crab) Omelette",
+                "price_estimate": 180
+            },
+            {
+                "item": "Bone Marrow Omelette",
+                "price_estimate": 220
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Irfan's View",
+            "sentiment_score": 8.5,
+            "community_note": "A Madurai staple. Use for the experience; community warns that prices are premium compared to local messes.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_002",
+        "location_name": "Sri Meenatchi Bun Parotta",
+        "category": "Street Food",
+        "business_type": "Tiffin / Night Spot",
+        "operating_hours": "6:00 PM - 1:00 AM",
+        "location_coordinates": {
+            "lat": 9.9189,
+            "lng": 78.1144
+        },
+        "menu_highlights": [
+            {
+                "item": "Bun Parotta",
+                "price_estimate": 20
+            },
+            {
+                "item": "Mutton Chukka",
+                "price_estimate": 160
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Niks Food Vlogs",
+            "sentiment_score": 9.2,
+            "community_note": "The Bun Parotta benchmark. Users suggest visiting after 9 PM for the freshest 'kothu' experience.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_005",
+        "location_name": "Gopu Iyengar Tiffin Center",
+        "category": "Heritage",
+        "business_type": "Pure Veg Tiffin",
+        "operating_hours": "7:00 AM - 11:00 AM, 4:00 PM - 9:00 PM",
+        "location_coordinates": {
+            "lat": 9.9215,
+            "lng": 78.1230
+        },
+        "menu_highlights": [
+            {
+                "item": "Vellayappam",
+                "price_estimate": 45
+            },
+            {
+                "item": "Bun Halwa",
+                "price_estimate": 50
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Lets Vibe",
+            "sentiment_score": 9.4,
+            "community_note": "A must for breakfast. The only place in the city serving authentic Vellayappam and Thavalai Vadai.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_007",
+        "location_name": "Konar Soup Kadai (Simmakkal)",
+        "category": "Street Food",
+        "business_type": "Soup & Kari Dosai",
+        "operating_hours": "5:00 PM - 12:30 AM",
+        "location_coordinates": {
+            "lat": 9.9160,
+            "lng": 78.1120
+        },
+        "menu_highlights": [
+            {
+                "item": "Kari Dosai",
+                "price_estimate": 220
+            },
+            {
+                "item": "Mutton Soup",
+                "price_estimate": 60
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Idris Explores",
+            "sentiment_score": 9.1,
+            "community_note": "Since 1943. While some call it overhyped, it remains the historic home of Kari Dosai.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_008",
+        "location_name": "Famous Jigarthanda (Anna Nagar)",
+        "category": "Legendary",
+        "business_type": "Dessert Shop",
+        "operating_hours": "10:00 AM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 9.9140,
+            "lng": 78.1160
+        },
+        "menu_highlights": [
+            {
+                "item": "Special Jigarthanda",
+                "price_estimate": 80
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Idris Explores",
+            "sentiment_score": 9.5,
+            "community_note": "The gold standard for Madurai's signature drink. Beware of duplicate names in the same street.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_009",
+        "location_name": "Arumugam Mess",
+        "category": "Hidden Gem",
+        "business_type": "Authentic Non-Veg",
+        "operating_hours": "12:30 PM - 4:00 PM, 7:30 PM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 9.9325,
+            "lng": 78.1180
+        },
+        "menu_highlights": [
+            {
+                "item": "Suvarotti (Spleen)",
+                "price_estimate": 150
+            },
+            {
+                "item": "Kudal Roast",
+                "price_estimate": 140
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Idris Explores",
+            "sentiment_score": 9.0,
+            "community_note": "Locals-only spot for offal. Known for authentic, high-spice traditional recipes.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_010",
+        "location_name": "Sulthan Mess",
+        "category": "Underrated",
+        "business_type": "Night Food Spot",
+        "operating_hours": "6:30 PM - 1:30 AM",
+        "location_coordinates": {
+            "lat": 9.9240,
+            "lng": 78.1255
+        },
+        "menu_highlights": [
+            {
+                "item": "Mutton Kari Dosa",
+                "price_estimate": 240
+            },
+            {
+                "item": "Nalli Biryani",
+                "price_estimate": 380
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Madurai Foodie",
+            "sentiment_score": 8.9,
+            "community_note": "Great late-night alternative to Konar. Faster service and arguably better meat-to-dosa ratio.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_011",
+        "location_name": "Sri Nagalakshmi Annexe",
+        "category": "Hidden Gem",
+        "business_type": "Saurashtrian Traditional",
+        "operating_hours": "11:30 AM - 3:30 PM",
+        "location_coordinates": {
+            "lat": 9.9120,
+            "lng": 78.1090
+        },
+        "menu_highlights": [
+            {
+                "item": "Kalkandu Sadham",
+                "price_estimate": 90
+            },
+            {
+                "item": "Full Thali",
+                "price_estimate": 180
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Lets Vibe",
+            "sentiment_score": 9.6,
+            "community_note": "A rare spot to try Madurai's Saurashtrian heritage food. Limited hours and seating.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_012",
+        "location_name": "Ganesan Paruthi Paal",
+        "category": "Street Food",
+        "business_type": "Traditional Wellness",
+        "operating_hours": "5:30 AM - 9:00 AM, 5:00 PM - 10:00 PM",
+        "location_coordinates": {
+            "lat": 9.9155,
+            "lng": 78.1175
+        },
+        "menu_highlights": [
+            {
+                "item": "Paruthi Paal",
+                "price_estimate": 30
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Common Man Dina",
+            "sentiment_score": 9.8,
+            "community_note": "A 90-year-old tradition. Best for early morning walkers near the temple area.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "mdy_013",
+        "location_name": "Janakiram Hotel",
+        "category": "Local Favorite",
+        "business_type": "Fine Dining Mess",
+        "operating_hours": "11:00 AM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 9.9235,
+            "lng": 78.1125
+        },
+        "menu_highlights": [
+            {
+                "item": "Ayirai Meen Kulambu",
+                "price_estimate": 400
+            },
+            {
+                "item": "Chettinad Chicken",
+                "price_estimate": 260
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Peppa Foodie",
+            "sentiment_score": 8.8,
+            "community_note": "Reliable and cleaner dining environment than most messes. Famous for seafood quality.",
+            "is_promotion": false
+        }
+    }
+]
