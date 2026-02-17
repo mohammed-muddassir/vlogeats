@@ -309,6 +309,10 @@ function createReviewCard(review) {
                     <div class="vlogger-avatar">${vloggerInitials}</div>
                     <span>${escapeHTML(review.social_proof.top_vlogger)}</span>
                 </div>
+                ${review.social_proof.vlog_link ? `
+                <a href="${escapeHTML(review.social_proof.vlog_link)}" target="_blank" class="vlog-link" title="Watch Review">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>` : ''}
                 <p class="community-note">"${escapeHTML(review.social_proof.community_note)}"</p>
             </div>
         </div>
