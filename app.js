@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Elements
     const searchInput = document.getElementById('search-input');
     const openNowFilter = document.getElementById('open-now-filter');
+    const locateBtn = document.getElementById('locate-btn');
+    let userLocation = null;
+    let userMarker = null;
 
     // Map Initialization
     if (typeof L !== 'undefined') {
@@ -58,6 +61,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
     searchInput.addEventListener('input', applyFilters);
     openNowFilter.addEventListener('change', applyFilters);
+
+    locateBtn.addEventListener('click', () => {
+        if (!navigator.geolocation) {
+            alert('Geolocation is not supported by your browser');
+            return;
+        }
+
+        locateBtn.classList.add('active'); // Pulse effect
+
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                userLocation = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+
+                // Add User Marker
+                if (userMarker) map.removeLayer(userMarker);
+
+                userMarker = L.marker([userLocation.lat, userLocation.lng], {
+                    icon: L.divIcon({
+                        className: 'user-marker',
+                        html: '<div style="background-color: #007bff; width: 15px; height: 15px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 10px rgba(0,123,255,0.5);"></div>',
+                        iconSize: [20, 20]
+                    })
+                }).addTo(map).bindPopup("You are here").openPopup();
+
+                map.setView([userLocation.lat, userLocation.lng], 13);
+
+                locateBtn.classList.remove('active');
+                applyFilters();
+            },
+            (error) => {
+                console.error("Locate failed:", error);
+                alert("Unable to retrieve your location. Please allow access.");
+                locateBtn.classList.remove('active');
+            }
+        );
+    });
 
     async function initialize() {
         // Load default city (Madurai)
@@ -122,6 +164,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // 2. Open Now Filter
         if (isOpenNowChecked) {
             filteredReviews = filteredReviews.filter(review => isOpen(review.operating_hours));
+        }
+
+        // 3. Distance Sorting (if user location exists)
+        if (userLocation) {
+            filteredReviews = filteredReviews.map(review => {
+                const dist = calculateDistance(
+                    userLocation.lat, userLocation.lng,
+                    review.location_coordinates.lat, review.location_coordinates.lng
+                );
+                return { ...review, distance: dist };
+            }).sort((a, b) => a.distance - b.distance);
         }
 
         renderReviews(filteredReviews, reviewsGrid);
@@ -225,6 +278,7 @@ function createReviewCard(review) {
         <div class="card-header">
             <div class="card-top">
                 <span class="category-badge ${categoryClass}">${escapeHTML(review.category)}</span>
+                ${review.distance ? `<span class="distance-badge"><i class="fa-solid fa-location-arrow"></i> ${review.distance.toFixed(1)} km</span>` : ''}
                 <div class="sentiment-badge">
                     <i class="fa-solid fa-star"></i>
                     <span>${review.social_proof.sentiment_score}</span>
@@ -255,6 +309,10 @@ function createReviewCard(review) {
                     <div class="vlogger-avatar">${vloggerInitials}</div>
                     <span>${escapeHTML(review.social_proof.top_vlogger)}</span>
                 </div>
+                ${review.social_proof.vlog_link ? `
+                <a href="${escapeHTML(review.social_proof.vlog_link)}" target="_blank" class="vlog-link" title="Watch Review">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>` : ''}
                 <p class="community-note">"${escapeHTML(review.social_proof.community_note)}"</p>
             </div>
         </div>
@@ -321,8 +379,26 @@ if (typeof module !== 'undefined' && module.exports) {
         parseTime,
         escapeHTML,
         createReviewCard,
-        renderReviews
+        renderReviews,
+        calculateDistance
     };
+}
+
+function calculateDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Radius of the earth in km
+    const dLat = deg2rad(lat2 - lat1);
+    const dLon = deg2rad(lon2 - lon1);
+    const a =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    const d = R * c; // Distance in km
+    return d;
+}
+
+function deg2rad(deg) {
+    return deg * (Math.PI / 180);
 }
 
 

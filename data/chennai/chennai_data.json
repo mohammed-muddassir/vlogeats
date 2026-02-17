@@ -20,9 +20,38 @@
             }
         ],
         "social_proof": {
-            "top_vlogger": "Delhi Food Walks",
+            "top_vlogger": "Food and Food Only",
+            "vlog_link": "https://www.youtube.com/watch?v=19QMhRt6bOI",
             "sentiment_score": 9.7,
-            "community_note": "A tiny 80-year-old establishment. Famous for the 'Rayar Sambar'. Extremely limited seating.",
+            "community_note": "A 90+ year heritage spot. Famous for 'Rayar Sambar'. Very limited seating.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_002",
+        "location_name": "Nair Mess (Chepauk)",
+        "category": "Legendary",
+        "business_type": "Non-Veg Mess",
+        "operating_hours": "11:30 AM - 3:30 PM",
+        "location_coordinates": {
+            "lat": 13.0642,
+            "lng": 80.2801
+        },
+        "menu_highlights": [
+            {
+                "item": "Vanjaram Fish Fry",
+                "price_estimate": 250
+            },
+            {
+                "item": "Meals",
+                "price_estimate": 120
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Peppa Foodie",
+            "vlog_link": "https://www.youtube.com/watch?v=urvvib0TE2I",
+            "sentiment_score": 9.4,
+            "community_note": "The go-to spot for seafood lovers near Marina. Authentic Kerala-style prep.",
             "is_promotion": false
         }
     },
@@ -48,8 +77,57 @@
         ],
         "social_proof": {
             "top_vlogger": "Irfan's View",
+            "vlog_link": "https://www.youtube.com/watch?v=5OIOF2LVzWg",
             "sentiment_score": 9.2,
-            "community_note": "The original spot for Chennai's unique Burmese street food culture. Best enjoyed fresh at the stall.",
+            "community_note": "The hub for Burmese street food. Irfan highlights the unique orange noodles and garlic oil.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_004",
+        "location_name": "Geetham Veg Restaurant",
+        "category": "Popular",
+        "business_type": "Modern Veg",
+        "operating_hours": "7:00 AM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 13.0402,
+            "lng": 80.2338
+        },
+        "menu_highlights": [
+            {
+                "item": "VIP Breakfast Combo",
+                "price_estimate": 40
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Singapore to Chennai",
+            "vlog_link": "https://www.youtube.com/watch?v=urvvib0TE2I",
+            "sentiment_score": 9.5,
+            "community_note": "Viral ₹40 combo is the highlight here. Massive value for money.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_005",
+        "location_name": "Marina Beach Sundal Stalls",
+        "category": "Street Food",
+        "business_type": "Beach Snacks",
+        "operating_hours": "4:00 PM - 9:00 PM",
+        "location_coordinates": {
+            "lat": 13.0500,
+            "lng": 80.2824
+        },
+        "menu_highlights": [
+            {
+                "item": "Thengai Manga Pattani Sundal",
+                "price_estimate": 30
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Local Vlogs",
+            "vlog_link": "https://www.youtube.com/watch?v=etSxM5wbVYA",
+            "sentiment_score": 8.9,
+            "community_note": "Classic beach experience. Best enjoyed while watching the sunset.",
             "is_promotion": false
         }
     },
@@ -65,24 +143,45 @@
         },
         "menu_highlights": [
             {
-                "item": "Sambar Idli (Unlimited)",
+                "item": "Sambar Idli",
                 "price_estimate": 90
-            },
-            {
-                "item": "Special Filter Coffee",
-                "price_estimate": 50
             }
         ],
         "social_proof": {
-            "top_vlogger": "Foodie Incarnate",
+            "top_vlogger": "The Taste of Chennai",
+            "vlog_link": "https://www.youtube.com/shorts/xHsCfwWd_1Q",
             "sentiment_score": 9.1,
-            "community_note": "Famous for the 'Bucket Sambar'. A Triplicane landmark since 1948.",
+            "community_note": "Unlimited sambar poured from buckets. A Triplicane icon since 1948.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_007",
+        "location_name": "Seena Bhai Tiffin Centre",
+        "category": "Street Food",
+        "business_type": "Tiffin Spot",
+        "operating_hours": "5:00 PM - 11:30 PM",
+        "location_coordinates": {
+            "lat": 13.0912,
+            "lng": 80.2798
+        },
+        "menu_highlights": [
+            {
+                "item": "Ghee Onion Uthappam",
+                "price_estimate": 110
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Indian Food Heaven",
+            "vlog_link": "https://www.youtube.com/watch?v=Dutdd5tpurg",
+            "sentiment_score": 9.6,
+            "community_note": "Sowcarpet's legendary ghee-heavy tiffin. No seating, pure street vibe.",
             "is_promotion": false
         }
     },
     {
         "id": "maa_008",
-        "location_name": "Kakada Ramprasad (Sowcarpet)",
+        "location_name": "Kakada Ramprasad",
         "category": "Legendary",
         "business_type": "North Indian Chaat",
         "operating_hours": "11:00 AM - 10:30 PM",
@@ -102,8 +201,33 @@
         ],
         "social_proof": {
             "top_vlogger": "Peppa Foodie",
+            "vlog_link": "https://www.youtube.com/watch?v=jazCuWwNadM",
             "sentiment_score": 9.5,
-            "community_note": "The gold standard for chaat in Chennai. Their Badam Milk is a cult favorite.",
+            "community_note": "The best North Indian sweets and chaat in the city. Badam milk is a must.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_009",
+        "location_name": "Buhari Hotel (Mount Road)",
+        "category": "Legendary",
+        "business_type": "Non-Veg Heritage",
+        "operating_hours": "11:00 AM - 1:00 AM",
+        "location_coordinates": {
+            "lat": 13.0635,
+            "lng": 80.2642
+        },
+        "menu_highlights": [
+            {
+                "item": "Original Chicken 65",
+                "price_estimate": 380
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Irfan's View",
+            "vlog_link": "https://www.youtube.com/watch?v=T1_DzdFo1XI",
+            "sentiment_score": 8.8,
+            "community_note": "Birthplace of Chicken 65. A historic late-night spot on Mount Road.",
             "is_promotion": false
         }
     },
@@ -121,16 +245,133 @@
             {
                 "item": "Beef Nalli Dosa",
                 "price_estimate": 180
-            },
-            {
-                "item": "Bone Marrow Gravy",
-                "price_estimate": 150
             }
         ],
         "social_proof": {
             "top_vlogger": "Foodie Prabu",
+            "vlog_link": "https://www.youtube.com/watch?v=mlvhF6XlS0U",
             "sentiment_score": 9.8,
-            "community_note": "Viral spot serving tender bone marrow with crispy dosas. Recently reached international fame.",
+            "community_note": "Viral bone marrow dosa. Recently went global on social media.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_011",
+        "location_name": "Manjal Restaurant",
+        "category": "Popular",
+        "business_type": "South Indian Non-Veg",
+        "operating_hours": "12:00 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 13.0385,
+            "lng": 80.2450
+        },
+        "menu_highlights": [
+            {
+                "item": "Non-Veg Virundhu",
+                "price_estimate": 450
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Crazy Pair",
+            "vlog_link": "https://www.youtube.com/watch?v=GHJVXa1JMZA",
+            "sentiment_score": 9.2,
+            "community_note": "Known for massive variety. A celebrity favorite in Poes Garden area.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_012",
+        "location_name": "Jannal Kadai (Mylapore)",
+        "category": "Hidden Gem",
+        "business_type": "Heritage Snack",
+        "operating_hours": "7:00 AM - 8:00 PM",
+        "location_coordinates": {
+            "lat": 13.0335,
+            "lng": 80.2685
+        },
+        "menu_highlights": [
+            {
+                "item": "Bajji Plate",
+                "price_estimate": 40
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Semma Theeni",
+            "vlog_link": "https://www.youtube.com/shorts/bwboVxtzoS4",
+            "sentiment_score": 9.4,
+            "community_note": "A window-only service spot. Cult status for evening bajjis.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_013",
+        "location_name": "Kalathi Rose Milk",
+        "category": "Street Food",
+        "business_type": "Beverage",
+        "operating_hours": "10:00 AM - 9:00 PM",
+        "location_coordinates": {
+            "lat": 13.0335,
+            "lng": 80.2681
+        },
+        "menu_highlights": [
+            {
+                "item": "Iconic Rose Milk",
+                "price_estimate": 35
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Tamil Foodie",
+            "vlog_link": "https://www.youtube.com/watch?v=HgHrbuTqHao",
+            "sentiment_score": 9.6,
+            "community_note": "Running since 1951. Essential Mylapore experience.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_014",
+        "location_name": "Fusilli Reasons (Kilpauk)",
+        "category": "Student Hub",
+        "business_type": "Budget Continental",
+        "operating_hours": "12:00 PM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 13.0825,
+            "lng": 80.2452
+        },
+        "menu_highlights": [
+            {
+                "item": "Garlic Bread",
+                "price_estimate": 80
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Local Student Reviews",
+            "vlog_link": "https://www.youtube.com/watch?v=zHdZdY1bANg",
+            "sentiment_score": 8.9,
+            "community_note": "The legendary student spot for affordable pasta.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_015",
+        "location_name": "Writer's Cafe",
+        "category": "Modern",
+        "business_type": "Social Cafe",
+        "operating_hours": "10:00 AM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 13.0505,
+            "lng": 80.2550
+        },
+        "menu_highlights": [
+            {
+                "item": "Mac & Cheese",
+                "price_estimate": 280
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Chennai Vlog",
+            "vlog_link": "https://www.youtube.com/watch?v=urvvib0TE2I",
+            "sentiment_score": 9.3,
+            "community_note": "A peaceful book-filled retreat with great snacks.",
             "is_promotion": false
         }
     },
@@ -146,14 +387,15 @@
         },
         "menu_highlights": [
             {
-                "item": "Idli with Signature Sambar",
+                "item": "Idli with Sambar",
                 "price_estimate": 60
             }
         ],
         "social_proof": {
             "top_vlogger": "Irfan's View",
+            "vlog_link": "https://www.youtube.com/watch?v=GatCTgYEU5k",
             "sentiment_score": 9.9,
-            "community_note": "People drink the sambar like soup here. Known as the gold standard for tiffin in North Chennai.",
+            "community_note": "Known as the best sambar in North Chennai.",
             "is_promotion": false
         }
     },
@@ -169,14 +411,39 @@
         },
         "menu_highlights": [
             {
-                "item": "Signature Ramen",
+                "item": "Ramen Bowl",
                 "price_estimate": 650
             }
         ],
         "social_proof": {
-            "top_vlogger": "2026 Trend Watch",
+            "top_vlogger": "Double Dashi Shorts",
+            "vlog_link": "https://www.youtube.com/shorts/xW-x-d0gJIA",
             "sentiment_score": 9.4,
-            "community_note": "A speakeasy-style hidden gem in a residential area. High-energy Japanese umami vibe.",
+            "community_note": "A hidden speakeasy-style Japanese spot.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_018",
+        "location_name": "Mummy Daddy Andhra Mess",
+        "category": "Hidden Gem",
+        "business_type": "Andhra Meals",
+        "operating_hours": "11:30 AM - 4:00 PM",
+        "location_coordinates": {
+            "lat": 13.0850,
+            "lng": 80.2120
+        },
+        "menu_highlights": [
+            {
+                "item": "Andhra Meals",
+                "price_estimate": 270
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Traveller Nanban",
+            "vlog_link": "https://www.youtube.com/watch?v=uD8WcUmpG68",
+            "sentiment_score": 9.1,
+            "community_note": "Authentic and spicy Andhra flavors in Velachery.",
             "is_promotion": false
         }
     },
@@ -194,16 +461,37 @@
             {
                 "item": "Birria Tacos",
                 "price_estimate": 250
-            },
-            {
-                "item": "Boba Tea",
-                "price_estimate": 200
             }
         ],
         "social_proof": {
             "top_vlogger": "Dad's Den",
+            "vlog_link": "https://www.youtube.com/channel/UCnjU1FHmao9YNfPzE039YTw",
             "sentiment_score": 9.0,
-            "community_note": "The heart of Anna Nagar nightlife. Over 40 stalls; perfect for 3 AM cravings.",
+            "community_note": "The pulse of Anna Nagar's nightlife.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_020",
+        "location_name": "Mari Hotel (Saidapet)",
+        "category": "Hidden Gem",
+        "business_type": "Tiffin & Vadacurry",
+        "operating_hours": "6:00 AM - 11:00 AM",
+        "location_coordinates": {
+            "lat": 13.0232,
+            "lng": 80.2241
+        },
+        "menu_highlights": [
+            {
+                "item": "Set Dosa Vadacurry",
+                "price_estimate": 50
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "BSN Media",
+            "vlog_link": "https://www.youtube.com/watch?v=3PMD_Mgj800",
+            "sentiment_score": 9.5,
+            "community_note": "Famous for the best Vadacurry in the city.",
             "is_promotion": false
         }
     },
@@ -211,7 +499,7 @@
         "id": "maa_021",
         "location_name": "Visesham (Nandanam)",
         "category": "Modern",
-        "business_type": "Fine Dining South Indian",
+        "business_type": "South Indian Fine Dine",
         "operating_hours": "12:00 PM - 11:00 PM",
         "location_coordinates": {
             "lat": 13.0315,
@@ -219,14 +507,15 @@
         },
         "menu_highlights": [
             {
-                "item": "Regional Virundhu Thali",
+                "item": "Regional Thali",
                 "price_estimate": 1200
             }
         ],
         "social_proof": {
-            "top_vlogger": "ET Now Budget Yatra 2026",
+            "top_vlogger": "DT Next",
+            "vlog_link": "https://www.youtube.com/shorts/TNf2v4_ebiw",
             "sentiment_score": 9.6,
-            "community_note": "Recognized as Debutant Restaurant of the Year 2025. Offers an elevated South Indian experience.",
+            "community_note": "Elevated regional flavors across South India.",
             "is_promotion": false
         }
     }
