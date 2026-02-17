@@ -1,0 +1,233 @@
+[
+    {
+        "id": "maa_001",
+        "location_name": "Rayar's Mess (Mylapore)",
+        "category": "Legendary",
+        "business_type": "Pure Veg Heritage",
+        "operating_hours": "7:00 AM - 10:30 AM, 3:00 PM - 6:30 PM",
+        "location_coordinates": {
+            "lat": 13.0331,
+            "lng": 80.2674
+        },
+        "menu_highlights": [
+            {
+                "item": "Ghee Pongal",
+                "price_estimate": 55
+            },
+            {
+                "item": "Medu Vada",
+                "price_estimate": 30
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Delhi Food Walks",
+            "sentiment_score": 9.7,
+            "community_note": "A tiny 80-year-old establishment. Famous for the 'Rayar Sambar'. Extremely limited seating.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_003",
+        "location_name": "Atho Man (Burma Bazaar)",
+        "category": "Street Food",
+        "business_type": "Burmese Specialty",
+        "operating_hours": "4:00 PM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 13.0891,
+            "lng": 80.2882
+        },
+        "menu_highlights": [
+            {
+                "item": "Egg Atho",
+                "price_estimate": 80
+            },
+            {
+                "item": "Mohinga",
+                "price_estimate": 40
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Irfan's View",
+            "sentiment_score": 9.2,
+            "community_note": "The original spot for Chennai's unique Burmese street food culture. Best enjoyed fresh at the stall.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_006",
+        "location_name": "Ratna Cafe (Triplicane)",
+        "category": "Legendary",
+        "business_type": "Pure Veg",
+        "operating_hours": "7:30 AM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 13.0594,
+            "lng": 80.2761
+        },
+        "menu_highlights": [
+            {
+                "item": "Sambar Idli (Unlimited)",
+                "price_estimate": 90
+            },
+            {
+                "item": "Special Filter Coffee",
+                "price_estimate": 50
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Foodie Incarnate",
+            "sentiment_score": 9.1,
+            "community_note": "Famous for the 'Bucket Sambar'. A Triplicane landmark since 1948.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_008",
+        "location_name": "Kakada Ramprasad (Sowcarpet)",
+        "category": "Legendary",
+        "business_type": "North Indian Chaat",
+        "operating_hours": "11:00 AM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 13.0934,
+            "lng": 80.2785
+        },
+        "menu_highlights": [
+            {
+                "item": "Aloo Tikki Chaat",
+                "price_estimate": 140
+            },
+            {
+                "item": "Chilled Badam Milk",
+                "price_estimate": 95
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Peppa Foodie",
+            "sentiment_score": 9.5,
+            "community_note": "The gold standard for chaat in Chennai. Their Badam Milk is a cult favorite.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_010",
+        "location_name": "Nalli Dosa Kadai (Anna Nagar)",
+        "category": "Street Food",
+        "business_type": "Non-Veg Specialty",
+        "operating_hours": "6:30 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 13.0852,
+            "lng": 80.2124
+        },
+        "menu_highlights": [
+            {
+                "item": "Beef Nalli Dosa",
+                "price_estimate": 180
+            },
+            {
+                "item": "Bone Marrow Gravy",
+                "price_estimate": 150
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Foodie Prabu",
+            "sentiment_score": 9.8,
+            "community_note": "Viral spot serving tender bone marrow with crispy dosas. Recently reached international fame.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_016",
+        "location_name": "Welcome Hotel (Purasai)",
+        "category": "Legendary",
+        "business_type": "Veg Tiffin",
+        "operating_hours": "6:30 AM - 10:30 PM",
+        "location_coordinates": {
+            "lat": 13.0818,
+            "lng": 80.2525
+        },
+        "menu_highlights": [
+            {
+                "item": "Idli with Signature Sambar",
+                "price_estimate": 60
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Irfan's View",
+            "sentiment_score": 9.9,
+            "community_note": "People drink the sambar like soup here. Known as the gold standard for tiffin in North Chennai.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_017",
+        "location_name": "Double Dashi",
+        "category": "Modern",
+        "business_type": "Japanese Noodle Bar",
+        "operating_hours": "12:30 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 13.0425,
+            "lng": 80.2510
+        },
+        "menu_highlights": [
+            {
+                "item": "Signature Ramen",
+                "price_estimate": 650
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "2026 Trend Watch",
+            "sentiment_score": 9.4,
+            "community_note": "A speakeasy-style hidden gem in a residential area. High-energy Japanese umami vibe.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_019",
+        "location_name": "Kora Food Street",
+        "category": "Student Hub",
+        "business_type": "24/7 Food Hub",
+        "operating_hours": "Open 24 Hours",
+        "location_coordinates": {
+            "lat": 13.0854,
+            "lng": 80.2115
+        },
+        "menu_highlights": [
+            {
+                "item": "Birria Tacos",
+                "price_estimate": 250
+            },
+            {
+                "item": "Boba Tea",
+                "price_estimate": 200
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "Dad's Den",
+            "sentiment_score": 9.0,
+            "community_note": "The heart of Anna Nagar nightlife. Over 40 stalls; perfect for 3 AM cravings.",
+            "is_promotion": false
+        }
+    },
+    {
+        "id": "maa_021",
+        "location_name": "Visesham (Nandanam)",
+        "category": "Modern",
+        "business_type": "Fine Dining South Indian",
+        "operating_hours": "12:00 PM - 11:00 PM",
+        "location_coordinates": {
+            "lat": 13.0315,
+            "lng": 80.2450
+        },
+        "menu_highlights": [
+            {
+                "item": "Regional Virundhu Thali",
+                "price_estimate": 1200
+            }
+        ],
+        "social_proof": {
+            "top_vlogger": "ET Now Budget Yatra 2026",
+            "sentiment_score": 9.6,
+            "community_note": "Recognized as Debutant Restaurant of the Year 2025. Offers an elevated South Indian experience.",
+            "is_promotion": false
+        }
+    }
+]

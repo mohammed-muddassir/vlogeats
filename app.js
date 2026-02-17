@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
         coimbatore: {
             dataFile: 'data/coimbatore/cbe_data.json',
             coords: [11.0168, 76.9558]
+        },
+        chennai: {
+            dataFile: 'data/chennai/chennai_data.json',
+            coords: [13.0827, 80.2707]
         }
     };
 
@@ -139,7 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!map) return;
         const coords = {
             madurai: [9.9252, 78.1198],
-            coimbatore: [11.0168, 76.9558]
+            coimbatore: [11.0168, 76.9558],
+            chennai: [13.0827, 80.2707]
         };
 
         if (coords[city]) {
